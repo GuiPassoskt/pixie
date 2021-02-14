@@ -1,0 +1,27 @@
+@import "fontawesome";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.section-heading {
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.section-heading .line-dec {
+	width: 30px;
+	height: 5px;
+	background-color: #3a8bcd;
+}
+.section-heading h1 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #1e1e1e;
+	margin-top: 15px;
+}

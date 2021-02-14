@@ -1,0 +1,70 @@
+<template>
+  <div>
+    <PreHeader />
+    <nav>
+      <div class="flex-logo">
+        <router-link :to="{ name: 'Home' }" class="nav-brand">
+          <img src="@/assets/images/header-logo.png" alt="logo" />
+        </router-link>
+      </div>
+      <ul class="is-flex is-justify-content-center border-bottom">
+        <li class="nav-item">
+          <router-link :to="{ name: 'Home' }" class="nav-link">
+            Home
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link :to="{ name: 'products' }" class="nav-link">
+            Produtos
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link :to="{ name: 'about' }" class="nav-link">
+            Sobre
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link :to="{ name: 'contact' }" class="nav-link">
+            Contato
+          </router-link>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</template>
+
+<script>
+import PreHeader from './PreHeader'
+export default {
+  name: 'Header',
+  components: {
+    PreHeader
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.flex-logo {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 1px solid #f2f2f2;
+}
+ul > li > a {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #333;
+}
+.router-link-exact-active {
+  color: #3a8bcd !important;
+}
+.nav-item {
+  margin: 10px 20px;
+}
+.border-bottom {
+  border-bottom: 1px solid #f2f2f2;
+}
+</style>
