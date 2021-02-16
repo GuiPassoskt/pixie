@@ -4,7 +4,7 @@
       <div class="col-md-12">
         <div class="section-heading">
           <div class="line-dec"></div>
-          <h1>About Us</h1>
+          <h1>Sobre</h1>
         </div>
       </div>
       <div class="columns">
@@ -58,9 +58,9 @@
               <h6>
                 Find us on:
                 <span
-                  ><a href="#"><i class="fa fa-facebook"></i></a
-                  ><a href="#"><i class="fa fa-linkedin"></i></a
-                  ><a href="#"><i class="fa fa-twitter"></i></a
+                  ><a href="#"><i class="icofont-facebook"></i></a
+                  ><a href="#"><i class="icofont-linkedin"></i></a
+                  ><a href="#"><i class="icofont-twitter"></i></a
                 ></span>
               </h6>
             </div>

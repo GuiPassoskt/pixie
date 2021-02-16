@@ -3,7 +3,8 @@
     <Subscribe />
     <div class="footer">
       <div class="logo">
-        <img src="@/assets/images/header-logo.png" alt="logo" />
+        <!-- <img src="@/assets/images/header-logo.png" alt="logo" /> -->
+        <span class="logo-footer"> Alforje </span>
       </div>
       <div class="footer-menu">
         <ul>
@@ -11,20 +12,22 @@
             <router-link :to="{ name: 'Home' }">Home</router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Help' }">Help</router-link>
+            <router-link :to="{ name: 'Help' }">Ajuda</router-link>
           </li>
           <li>
             <router-link :to="{ name: 'Privacy Policy' }"
-              >Privacy Policy</router-link
+              >Política de Privacidade</router-link
             >
           </li>
           <li>
             <router-link :to="{ name: 'How It Works' }"
-              >How It Works ?</router-link
+              >Como Funciona ?</router-link
             >
           </li>
           <li>
-            <router-link :to="{ name: 'Contact Us' }">Contact Us</router-link>
+            <router-link :to="{ name: 'Contact Us' }"
+              >Entre em contato conosco</router-link
+            >
           </li>
         </ul>
       </div>
@@ -32,22 +35,22 @@
         <ul class="is-flex">
           <li>
             <router-link :to="{ name: '' }">
-              <i class="fa fa-facebook"></i>
+              <i class="icofont-facebook"></i>
             </router-link>
           </li>
           <li>
             <router-link :to="{ name: '' }">
-              <i class="fa fa-twitter"></i>
+              <i class="icofont-twitter"></i>
             </router-link>
           </li>
           <li>
             <router-link :to="{ name: '' }">
-              <i class="fa fa-linkedin"></i>
+              <i class="icofont-linkedin"></i>
             </router-link>
           </li>
           <li>
             <router-link :to="{ name: '' }">
-              <i class="fa fa-rss"></i>
+              <i class="icofont-rss"></i>
             </router-link>
           </li>
         </ul>
@@ -56,8 +59,8 @@
 
     <div class="sub-footer">
       <p>
-        Copyright &copy; 2019 Company Name - Design:
-        <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a>
+        Todos os direitos reservados &copy; 2021 - Desenvolvido por:
+        <a rel="nofollow" href="https://decodezero.surge.sh">Decode Zero</a>
       </p>
     </div>
   </div>
@@ -110,5 +113,11 @@ export default {
   width: 100vw;
   color: #7a7a7a;
   padding: 20px;
+}
+.logo-footer {
+  color: #000;
+  font-size: 32px;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Bad Script', cursive;
 }
 </style>

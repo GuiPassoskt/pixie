@@ -3,7 +3,7 @@
     <div class="container">
       <div class="section-heading">
         <div class="line-dec"></div>
-        <h1>Featured Items</h1>
+        <h1>Produtos</h1>
       </div>
     </div>
     <div class="is-flex is-justify-content-center mt-4 mb-4">
@@ -12,22 +12,22 @@
           <div id="filters" class="field is-grouped">
             <p class="control">
               <button class="button is-info is-outlined" data-filter="*">
-                All Products
+                Todos os Produtos
               </button>
             </p>
             <p class="control">
               <button class="button is-info is-outlined" data-filter=".new">
-                Newest
+                Os Mais Novos
               </button>
             </p>
             <p class="control">
               <button class="button is-info is-outlined" data-filter=".low">
-                Low Price
+                Menor Preço
               </button>
             </p>
             <p class="control">
               <button class="button is-info is-outlined" data-filter=".high">
-                Hight Price
+                Maior Preço
               </button>
             </p>
           </div>

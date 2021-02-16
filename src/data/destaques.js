@@ -1,26 +1,26 @@
 export const products = [
   {
     id: 1,
-    name: 'Proin vel ligula',
+    name: 'Mini Bag Shoulder',
     price: 'R$ 15.00',
-    image: 'assets/images/product-01.jpg'
+    image: 'assets/images/product-07.jpg'
   },
   {
     id: 2,
-    name: 'Erat odio rhoncus',
+    name: 'Mini Bag Shoulder',
     price: 'R$ 25.00',
-    image: 'assets/images/product-02.jpg'
+    image: 'assets/images/product-08.jpg'
   },
   {
     id: 3,
-    name: 'Integer vel turpis',
+    name: 'Mini Bag Shoulder',
     price: 'R$ 35.00',
-    image: 'assets/images/product-03.jpg'
+    image: 'assets/images/product-07.jpg'
   },
   {
     id: 4,
-    name: 'Sed purus quam',
+    name: 'Mini Bag Shoulder',
     price: 'R$ 45.00',
-    image: 'assets/images/product-04.jpg'
+    image: 'assets/images/product-08.jpg'
   }
 ]

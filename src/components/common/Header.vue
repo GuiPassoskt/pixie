@@ -4,7 +4,8 @@
     <nav>
       <div class="flex-logo">
         <router-link :to="{ name: 'Home' }" class="nav-brand">
-          <img src="@/assets/images/header-logo.png" alt="logo" />
+          <!-- <img src="@/assets/images/header-logo.png" alt="logo" v-if="1 == 2" /> -->
+          <span class="logo"> Alforje </span>
         </router-link>
       </div>
       <ul class="is-flex is-justify-content-center border-bottom">
@@ -66,5 +67,11 @@ ul > li > a {
 }
 .border-bottom {
   border-bottom: 1px solid #f2f2f2;
+}
+.logo {
+  color: #000;
+  font-size: 32px;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Bad Script', cursive;
 }
 </style>

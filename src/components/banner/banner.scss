@@ -1,11 +1,12 @@
 /* Banner Style */
 .banner {
-  margin-top: 50px;
-  background-image: url(~@/assets/images/banner-bg.jpg);
-  background-size: cover;
+  margin-top: 15px;
+  background-image: url(~@/assets/images/banner-4.png);
+  background-size: contain;
   background-repeat: no-repeat;
   padding: 150px 0px;
   background-position: center center;
+  width: 100%;
 }
 .banner .caption {
   background-color: rgba(250, 250, 250, 0.9);

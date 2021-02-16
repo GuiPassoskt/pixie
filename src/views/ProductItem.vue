@@ -5,7 +5,9 @@
         <img :src="require(`@/${item.image}`)" :alt="item.name" />
         <strong>{{ item.name }}</strong>
         <h6>{{ item.price }}</h6>
-        <button class="button">Adicionar ao carrinho</button>
+        <button class="button is-dark is-outlined">
+          Adicionar ao carrinho
+        </button>
       </div>
     </router-link>
   </div>
@@ -31,6 +33,7 @@ export default {
       img {
         border-radius: 20px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        height: 300px;
       }
       strong {
         color: #000;
