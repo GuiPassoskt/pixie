@@ -1,0 +1,24 @@
+.is-ubuntu {
+	border: 1px solid;
+	border-radius: 5px;
+	border-image: var(--ubuntu) 1 !important;
+	color: var(--crimson) !important;
+	padding: 10px;
+	&:hover {
+		border-radius: 5px;
+		background: var(--ubuntu);
+		color: #fff !important;
+	}
+}
+
+.is-instagram {
+	border-color: var(--crimson) !important;
+    border-radius: 5px !important;
+	color: var(--crimson) !important;
+	padding: 10px;
+	&:hover {
+        border-radius: 5px !important;
+		background: var(--instagram);
+		color: #fff !important;
+	}
+}

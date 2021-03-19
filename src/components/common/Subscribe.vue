@@ -32,7 +32,7 @@ export default {
 
 <style lang="scss" scoped>
 .subscribe {
-  background-color: #3a8bcd;
+  background: var(--royal);
   color: #fff;
   display: flex;
   flex-direction: column;

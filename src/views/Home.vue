@@ -3,14 +3,14 @@
     <Banner />
     <div class="container is-flex is-justify-content-space-around mb-2">
       <div class="is-flex is-align-items-center is-grey">
-        <i class="icofont-truck-alt"></i>
+        <i class="icon-truck"></i>
         <div>
           <h4 class="is-uppercase has-text-weight-bold">Frete Grátis</h4>
           <p class="has-text-weight-light">Para compras acima de R$100,00</p>
         </div>
       </div>
       <div class="is-flex is-align-items-center is-grey">
-        <i class="icofont-bill-alt"></i>
+        <i class="icon-coin"></i>
         <div>
           <h4 class="is-uppercase has-text-weight-bold">
             Garantia de Devolução
@@ -19,7 +19,7 @@
         </div>
       </div>
       <div class="is-flex is-align-items-center is-grey">
-        <i class="icofont-support"></i>
+        <i class="icon-headset"></i>
         <div>
           <h4 class="is-uppercase has-text-weight-bold">Suporte Online 24/7</h4>
           <p class="has-text-weight-light">Suporte ao cliente.</p>

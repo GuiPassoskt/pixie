@@ -15,44 +15,36 @@
         </div>
         <div class="column">
           <div class="right-content">
-            <h4>Phasellus vel interdum elit</h4>
+            <h4 class="is-size-4 has-text-weight-bold">Alforje</h4>
             <p>
-              <a
-                href="https://www.pexels.com/photo/group-of-people-raising-right-hand-1059120/"
-                >Photo Credit</a
-              >
-              goes to Pexels website. Aliquam erat volutpat. Pellentesque
-              fringilla, ligula consectetur cursus scelerisque, leo elit
-              pellentesque sapien, et pharetra arcu elit vitae sem. Suspendisse
-              erat dui, condimentum in mi ac, varius tempor sapien. Donec in
-              justo sit amet ex aliquet maximus ac quis erat.
+              A Alforje acredita que para cada pessoa existe uma infinidade de
+              possibilidades lá fora a serem experimentadas! Por isso, desde
+              2003, atendemos às necessidades de viajantes de todas as idades e
+              perfis a carregar de forma confortável e inteligente tudo o que
+              for importante.
             </p>
             <br />
             <p>
-              Donec fermentum tincidunt tellus quis fermentum. Proin eget
-              imperdiet purus. Nulla facilisi. Aliquam tincidunt porttitor dui
-              sed euismod. Duis est libero, rhoncus fermentum turpis id, tempus
-              fringilla ipsum. Nullam venenatis tincidunt neque vel hendrerit.
-              Suspendisse porta pretium porttitor.
+              Unindo mais de 18 anos de experiência, com flexibilidade e foco em
+              inovação, atingimos um lugar de constante expansão e um excelente
+              custo benefício nos produtos, nos tornando líderes nacionais na
+              oferta de Malas, Mochilas, Bolsas, Pastas, Carteiras, entre outros
+              acessórios.
             </p>
             <br />
             <p>
-              Sed purus quam, ultricies eu leo in, sollicitudin varius quam.
-              Proin dictum urna ac diam fermentum tempus. Pellentesque urna
-              urna, ullamcorper a tincidunt dignissim, venenatis in nisi.
-              Vivamus in volutpat tellus. Etiam fermentum luctus posuere.
+              Nossos itens podem ser usados em viagens internacionais ao longo
+              da vida por conta da extensa durabilidade e garantia, viagens de
+              final de semana, bem como nas viagens cotidianas de casa para o
+              trabalho, escola e atividade física.
             </p>
             <br />
             <p>
-              <a rel="nofollow" href="https://www.tooplate.com/view/2114-pixie"
-                >Pixie HTML Template</a
-              >
-              can be converted into your desired CMS theme. You can use this
-              Bootstrap v4.1.3 layout for any online shop. Please tell your
-              friends about
-              <a rel="nofollow" href="https://www.facebook.com/tooplate/"
-                >Tooplate</a
-              >. Thank you.
+              Nossa intenção é oferecer suporte em tudo o que está relacionado
+              às suas viagens! Queremos que esses momentos sejam leves,
+              divertidos e que você esteja bem preparado para tudo que puder
+              acontecer. Conte com nossas redes sociais e lojas físicas para se
+              manterem sempre atualizados.
             </p>
             <div class="share mt-4">
               <h6>

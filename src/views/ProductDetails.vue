@@ -1,6 +1,4 @@
 <template>
-  <!-- Page Content -->
-  <!-- Single Starts Here -->
   <div class="single-product">
     <div class="container">
       <div class="col-md-12">
@@ -14,18 +12,10 @@
             <div id="slider" class="flexslider">
               <ul class="slides">
                 <li>
-                  <img src="@/assets/images/big-01.jpg" class="product-main" />
+                  <transition name="fade">
+                    <ImageProduct :image="image" />
+                  </transition>
                 </li>
-                <!-- <li>
-                  <img src="@/assets/images/big-02.jpg" />
-                </li>
-                <li>
-                  <img src="@/assets/images/big-03.jpg" />
-                </li>
-                <li>
-                  <img src="@/assets/images/big-04.jpg" />
-                </li> -->
-                <!-- items mirrored twice, total of 12 -->
               </ul>
             </div>
             <div id="carousel" class="is-clipped">
@@ -34,27 +24,30 @@
                   <img
                     src="@/assets/images/thumb-01.jpg"
                     class="product-thumb"
+                    @click="nextImage(1)"
                   />
                 </li>
                 <li class="m-1">
                   <img
                     src="@/assets/images/thumb-02.jpg"
                     class="product-thumb"
+                    @click="nextImage(2)"
                   />
                 </li>
                 <li class="m-1">
                   <img
                     src="@/assets/images/thumb-03.jpg"
                     class="product-thumb"
+                    @click="nextImage(3)"
                   />
                 </li>
                 <li class="m-1">
                   <img
                     src="@/assets/images/thumb-04.jpg"
                     class="product-thumb"
+                    @click="nextImage(4)"
                   />
                 </li>
-                <!-- items mirrored twice, total of 12 -->
               </ul>
             </div>
           </div>
@@ -71,7 +64,7 @@
               fermentum vel, ullamcorper scelerisque velit.
             </p>
             <span>7 left on stock</span>
-            <form action="" method="get">
+            <form>
               <div class="columns mt-3">
                 <div class="column is-one-quarter">
                   <label for="quantity" class="label">Quantity:</label>
@@ -88,31 +81,28 @@
                 </div>
               </div>
               <div class="is-flex is-justify-content-flex-end">
-                <button type="submit" class="button is-dark is-outlined">
+                <button
+                  type="submit"
+                  class="button is-dark is-instagram is-outlined"
+                >
                   Adicionar ao Carrinho
                 </button>
               </div>
             </form>
             <div class="down-content">
-              <div class="categories">
-                <h6>
-                  Category:
-                  <span
-                    ><a href="#">Pants</a>,<a href="#">Women</a>,<a href="#"
-                      >Lifestyle</a
-                    ></span
-                  >
-                </h6>
-              </div>
-              <div class="share">
-                <h6>
-                  Share:
-                  <span
-                    ><a href="#"><i class="icofont-facebook"></i></a
-                    ><a href="#"><i class="icofont-linkedin"></i></a
-                    ><a href="#"><i class="icofont-twitter"></i></a
-                  ></span>
-                </h6>
+              <div class="is-flex">
+                <h6 class="mr-2">Category:</h6>
+                <div class="tags">
+                  <span class="tag is-info is-light">
+                    <a href="#">Pants</a>
+                  </span>
+                  <span class="tag is-info is-light">
+                    <a href="#">Women</a>
+                  </span>
+                  <span class="tag is-info is-light">
+                    <a href="#">Lifestyle</a>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -120,12 +110,25 @@
       </div>
     </div>
   </div>
-  <!-- Single Page Ends Here -->
 </template>
 
 <script>
+import ImageProduct from '@/components/utils/Image'
 export default {
-  name: 'ProductDetails'
+  name: 'ProductDetails',
+  components: {
+    ImageProduct
+  },
+  data() {
+    return {
+      image: 1
+    }
+  },
+  methods: {
+    nextImage(item) {
+      this.image = item
+    }
+  }
 }
 </script>
 
@@ -134,13 +137,25 @@ export default {
   max-width: 500px;
   overflow: auto;
 }
+
 .product-main {
   border-radius: 20px;
 }
+
 .product-thumb {
   border-radius: 20px;
 }
+
 .price {
   color: tomato;
+  font-size: 1.8rem;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>

@@ -51,7 +51,7 @@
 <script>
 import ProductItem from './ProductItem'
 import Pagination from '@/components/utils/Pagination'
-import { products } from '../data'
+import { products } from '../data/'
 export default {
   name: 'Products',
   components: {
